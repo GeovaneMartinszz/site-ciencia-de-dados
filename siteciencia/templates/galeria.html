@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %} Galeria {% endblock %}
+{% block head %}<link rel="stylesheet" href="../static/css/galeria.css">{% endblock %}
+{% block content %}
+    <div> id="geral"
+    <h1>galeria</h1>
+    <section>
+        {% for image in imagens %}
+        <img src="{{ url_for('static', filename='/img/galeria/'+image) }}">
+        {% endfor %}
+    </section>
+    <div>
+{% endblock %}

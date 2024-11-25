@@ -1,0 +1,15 @@
+h1 {
+<<<<<<< HEAD
+  line-height: 150px;
+  text-align: center;
+  color: white;
+  padding: 100px;
+  background-color: #0007;
+=======
+line-height: 150px;
+text-align: center;
+color:white;
+padding: 100px;
+background-color: #0007;
+>>>>>>> 1a0dba9 (.)
+}
